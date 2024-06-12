@@ -1,0 +1,207 @@
+
+
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+    font-family: "REM", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #ffffff;
+} 
+
+/* grid rules */
+
+.row {clear: both;}
+
+.limited {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.column {float: left; padding: 0 2vw; margin 0 0 .75rem 0;}
+
+.small-12 {
+    width: 100%;
+}
+
+.clearfix:after {
+    content :"";
+    display: table;
+    clear: both;
+}
+
+/* header */
+
+header {
+    background-color: #333;
+    height: 145px;
+}
+
+header img {
+    float: left;
+    height: 120px;
+    margin-top: 10px
+}
+
+/* hambuger */
+
+button#hamburgerBtn { 
+    background: none;
+    border:none;
+    color: #000000;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+}
+
+nav {
+    background-color: #04aa6d;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    padding: .8rem 0;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li.active {
+    background-color: rgba(0,0,0,0.5);
+}
+
+nav a:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul {
+    display: none;
+}
+
+    /* footer */
+    
+
+.footerimg {
+    height: 100px;
+}
+
+footer {
+    background-color: #ffffff;
+    font-size: 15px;
+    border-top: #cbcbcb solid 0.1px;
+}
+
+footer h2 {
+    text-transform:;
+    margin: 1rem 0 .3rem 0;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+.buttons {
+    padding: 3.8rem 0;
+    text-align: center;
+    color: #000000;
+    margin-left: 25%;
+  }
+  
+  .button1, .button2 {
+    border: #000000;
+    padding: 10px 20px;
+    width: 60%;
+    background-color: #cbcbcb;
+    border-radius: 8px;
+    list-style-type: none;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .button1 a, .button2 a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+
+  }
+  
+  .button1 a:hover, .button2 a:hover {
+    background-color :rgba(0,0,0,0.2);
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    border: 10px;
+    
+    
+  }
+
+
+main a:hover {
+    background-color: rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+
+
+.cards {
+    text-align: center;
+   
+    color: #000000;
+}
+
+.cards a:hover {
+    background-color: rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+.cards li {
+    display: inline;
+    background-color: #04aa6d;
+    margin: 8px;
+    padding: 40px;
+    border: #333 solid 1px;
+    border-radius: 8px;
+    
+}
+
+.cards ul {
+    list-style: none;
+    padding: 10%;
+}
+
+.info {
+    margin-left: 10%;
+    background-color: #cbcbcb;
+}
+
+.maplink {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+
+/* 
+nav bar color #04aa6d
+
+
+*/
